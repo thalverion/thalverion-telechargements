@@ -9,17 +9,16 @@ Thalverion aide votre foyer à tenir 72 heures sans aide extérieure : kit, rés
 
 | Fichier | Pour quel ordinateur ? |
 |---|---|
+| `Thalverion_X.Y.Z_amd64.deb` | **PC classique** (processeur Intel ou AMD) : c'est le cas le plus courant |
 | `Thalverion_X.Y.Z_arm64.deb` | Processeur ARM 64 bits (Raspberry Pi 4/5, ordinateurs ARM) |
-
-> Une version pour les PC classiques (Intel / AMD, « amd64 ») arrive bientôt.
 
 Pour connaître votre processeur, tapez `uname -m` dans un terminal : `aarch64` = ARM, `x86_64` = Intel/AMD.
 
-## Installer (Debian, Ubuntu, Raspberry Pi OS…)
+## Installer (Ubuntu 24.04 ou plus récent, Linux Mint 22, Debian 13, Raspberry Pi OS…)
 
 ```bash
 cd ~/Téléchargements
-sudo apt install ./Thalverion_*_arm64.deb
+sudo apt install ./Thalverion_*.deb
 ```
 
 Thalverion apparaît ensuite dans le menu des applications.
